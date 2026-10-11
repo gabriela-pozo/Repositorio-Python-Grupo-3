@@ -1,5 +1,12 @@
-# Librerías para correr visualizacion.ipynb (Parte 1)
+# Parte 1 (visualizacion.ipynb) y Parte 3 (app.py)
 pandas>=2.2
 plotly>=6.0
+streamlit>=1.40
 nbformat>=4.2
 ipykernel
+
+# Parte 2 (mapas.ipynb): mapas estáticos y Folium
+geopandas>=1.0
+mapclassify>=2.8
+matplotlib>=3.8
+folium>=0.17
