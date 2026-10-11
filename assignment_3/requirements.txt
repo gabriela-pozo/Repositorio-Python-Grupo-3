@@ -1,0 +1,5 @@
+# Librerías para correr visualizacion.ipynb (Parte 1)
+pandas>=2.2
+plotly>=6.0
+nbformat>=4.2
+ipykernel
