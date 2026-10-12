@@ -162,6 +162,16 @@ por_depto = (filtrado.groupby(["ubigeo", "departamento"], as_index=False)
                   prorrogas=("prorrogas", "sum"))
              .round({"lluvia_promedio_mm": 1}))
 
+# Pestañas más grandes y visibles: texto mayor, fondo gris y la pestaña activa en azul
+st.markdown(f"""<style>
+[data-testid="stTab"] {{
+    padding: 0.6rem 1.2rem; margin-right: 0.4rem; border-radius: 0.5rem 0.5rem 0 0; background: #F2F5F8;
+}}
+[data-testid="stTab"] p {{ font-size: 1.15rem; font-weight: 600; color: {NAVY}; }}
+[data-testid="stTab"][aria-selected="true"] {{ background: {LLUVIA}; }}
+[data-testid="stTab"][aria-selected="true"] p {{ color: #FFFFFF; }}
+</style>""", unsafe_allow_html=True)
+
 tab_evol, tab_disp, tab_mapa, tab_prorr, tab_datos = st.tabs(
     ["Evolución", "Lluvia vs emergencias", "Mapa", "Prórrogas", "Datos"])
 
