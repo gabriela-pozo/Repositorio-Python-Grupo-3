@@ -1,6 +1,6 @@
 # Assignment 3 – Lluvias y declaratorias de emergencia en el Perú (2022-2025)
 
-**Dashboard público:** PENDIENTE – pegar aquí el enlace `https://....streamlit.app` una vez desplegado.
+**Dashboard público:** https://lluvias-emergencias-peru.streamlit.app/
 
 ## 1. ¿De qué trata la aplicación? (pregunta)
 
